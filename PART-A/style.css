@@ -1,0 +1,81 @@
+#form-box {
+    margin: auto;
+    margin-top: 100px;
+    width: 30%;
+    background-color: #CDFCF6;
+    padding: 70px;
+}
+
+
+label {
+    font-weight: bold;
+}
+.container {
+    background: rgb(189, 96, 232);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body h5 {
+    color: black;
+}
+
+.body-section {
+    background-color: rgb(237, 255, 97);
+}
+
+#submitbtn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 6, 234);
+}
+
+.form-group {
+    width: 700px;
+}
+
+.calc-head {
+    color: blue;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(24, 14, 26);
+}
+#add{
+    background-color: whitesmoke;
+    
+}
+#add:hover{ 
+    background-color: #0014FF;
+    color: white;
+}
+  
+#sub{
+    background-color: whitesmoke;
+    
+}
+#sub:hover{ 
+    background-color:#0014FF;
+    color: white;
+}
+  
+#mul{
+    background-color: whitesmoke;
+
+}
+#mul:hover{ 
+    background-color: #0014FF;
+    color: white;
+}
+  
+#div{
+    background-color: whitesmoke;
+ 
+}
+#div:hover{ 
+    background-color:#0014FF;
+    color: white;
+}
+  .body-sections{
+    background-color: #A5F1E9;
+  }

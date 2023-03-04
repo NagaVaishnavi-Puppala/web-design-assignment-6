@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="calci.js"></script>
+  </head>
+  <body class="body-sections">
+    <form id="form-box">
+      <div class="form-group">
+        <h1 id="username"></h1>
+        <label for="t1">Number 1: </label>
+        <input
+          type="text"
+          name="t1"
+          id="txtN1"
+          class="form-control"
+          required
+        />
+        <h5 id="txtN1check" style="color: rgb(255, 0, 0)">Enter a Valid Number</h5>
+      </div>
+      <br /><br />
+
+      <div class="form-group">
+        <label for="t2">Number  2: </label>
+        <input type="text" name="t2" id="txtN2" class="form-control" />
+        <h5 id="txtN2check" style="color: rgb(255, 0, 0)">Enter a Valid Number</h5>
+      </div>
+      <br /><br />
+
+      <input type="button" id="add" value="Add" class="calc Addition"/>
+      <input type="button" id="sub" value="Subtract " class="calc Subtract" /> 
+      <input type="button" id="mul" value="Multiply" class="calc Multiply" />
+      <input type="button" id="div" value="Divide" class="calc Divide" />
+
+      <br /><br /><br>
+      <div class="form-group">
+        <label for="password"> Result: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <input input type="text" id="result" placeholder="Result" readonly />
+      </div>
+    </form>
+  </body>
+</html>
